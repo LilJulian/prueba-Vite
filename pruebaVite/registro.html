@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+      <header class="header">
+    <nav>
+      <ul class="header__menu">
+        <a href="#" class="header__menu-item">
+            <img class="header__menu-imagen" src="./images/logo.png" alt="Logo" >
+        </a>
+        <li><a href="#" class="header__menu-item">Productos</a></li>
+        <li><a href="#" class="header__menu-item">Categoría</a></li>
+        <li><a href="index.html" class="header__menu-item">Iniciar sesión</a></li>
+        <li><a href="#" class="header__menu-item">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <form class="form form--registro">
+      <h2 class="form__title">Registro</h2>
+      <div class="form__group">
+        <label class="form__label" for="reg-usuario">Usuario</label>
+        <input type="text" id="reg-usuario" class="form__input" required>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="reg-email">Correo</label>
+        <input type="email" id="reg-email" class="form__input" required>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="reg-password">Contraseña</label>
+        <input type="password" id="reg-password" class="form__input" required>
+      </div>
+      <button type="submit" class="form__button">Registrarse</button>
+    </form>
+  </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
