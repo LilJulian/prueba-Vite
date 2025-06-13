@@ -1,39 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./src/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-      <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="header">
     <nav>
       <ul class="header__menu">
         <a href="#" class="header__menu-item">
-            <img class="header__menu-imagen" src="./images/logo.png" alt="Logo" >
+          <img class="header__menu-imagen" src="./images/logo.png" alt="Logo">
         </a>
-        <li><a href="#" class="header__menu-item">Productos</a></li>
-        <li><a href="#" class="header__menu-item">Categoría</a></li>
-        <li><a href="#" class="header__menu-item">Iniciar sesión</a></li>
+        <li><a href="#productos" class="header__menu-item">Productos</a></li>
+        <li><a href="#categorias" class="header__menu-item">Categoría</a></li>
+        <li><a href="#Inicio" class="header__menu-item">Iniciar sesión</a></li>
         <li><a href="registro.html" class="header__menu-item">Registro</a></li>
       </ul>
     </nav>
   </header>
-  <div class="container">
+  <main class="cuerpo"></main>
+  <!-- <div class="container">
     <form class="form form--login">
       <h2 class="form__title">Iniciar Sesión</h2>
       <div class="form__group">
         <label class="form__label" for="login-usuario">Usuario</label>
-        <input type="text" id="login-usuario" class="form__input">
+        <input type="text" id="login-usuario" class="form__input" name="usuario">
       </div>
       <div class="form__group">
         <label class="form__label" for="login-password">Contraseña</label>
-        <input type="password" id="login-password" class="form__input">
+        <input type="password" id="login-password" class="form__input" name="Contraseña">
       </div>
       <button type="submit" class="form__button">Ingresar</button>
     </form>
-  </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  </div> -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
